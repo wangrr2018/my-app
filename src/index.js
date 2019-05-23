@@ -2,14 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 
-import Router from './router/index.js'
+import Routers from './router/index.js'
 import store from './store/index.js'
 import './index.css'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
 	<Provider store={ store }>
-		<Router />
+		<Routers />
 	</Provider>, 
 	document.getElementById('root')
 )

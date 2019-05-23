@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import App from './../App.js'
-import Login from './../components/login/login'
-import Register from './../components/register/register'
-export default class 	extends Component {
+import Login from './../container/login/login'
+import Register from './../container/register/register'
+
+class Routers extends Component {
     render() {
         return (
         	<Router>
@@ -14,3 +15,5 @@ export default class 	extends Component {
         )
     }
 }
+
+export default Routers

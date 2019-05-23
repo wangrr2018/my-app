@@ -11,9 +11,9 @@ function App() {
                 <img src={ logo } className="App-logo" alt="logo" />
                 <h3>Welcome</h3>
                 <div>
-                    <Link to='/login'>登录</Link>
+                    <Link to='/login' className="App-font">登录</Link>
                     <WhiteSpace />
-                    <Link to='/register'>注册</Link>
+                    <Link to='/register' className="App-font">注册</Link>
                 </div>
             </header>
         </div>
